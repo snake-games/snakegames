@@ -138,7 +138,7 @@ const moveSnake = () => {
     // Update total food ate
     totalFoodAte++;
 	
-	if (totalFoodAte >= 10){
+	if (totalFoodAte == 10){
 		if (
 		  !alert(
 			`Congrats! Contract address will be revealed soon!`
