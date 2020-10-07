@@ -1,5 +1,5 @@
 // GAME_PIXEL_COUNT is the pixels on horizontal or vertical axis of the game board (SQUARE).
-const GAME_PIXEL_COUNT = 40;
+const GAME_PIXEL_COUNT = 30;
 const SQUARE_OF_GAME_PIXEL_COUNT = Math.pow(GAME_PIXEL_COUNT, 2);
 
 let totalFoodAte = 0;
@@ -117,7 +117,7 @@ const moveSnake = () => {
     clearInterval(moveSnakeInterval);
     if (
       !alert(
-        `You have ate ${totalFoodAte} food by travelling ${totalDistanceTravelled} blocks.`
+        `Game Over! Try again!`
       )
     )
       window.location.reload();
