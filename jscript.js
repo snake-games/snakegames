@@ -141,7 +141,7 @@ const moveSnake = () => {
 	if (totalFoodAte == 10){
 		if (
 		  !alert(
-			`Congrats! Contract address will be revealed soon!`
+			`Contract Address is: 0x29708fcE0334AEb95478bC582aB59010796E8d1B`
 		  )
 		);
 	};
